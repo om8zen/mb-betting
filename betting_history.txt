@@ -213,12 +213,8 @@ bet 500 Robert 5 Weather
 win MBOUltimate 5 Lichable
 win Eguy 5 TheTurk
 win Rosie 5 Peacock
-commit
 gambler set Frostfire
 bet 400 Robert 4 Weather
-commit
 win Lee 3 Sefaro
-commit
-commit
 win Jackrb 3 MBCollector
 commit
