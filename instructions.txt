@@ -1,0 +1,38 @@
+And we're back for our second annual betting thread, for the [url=https://marbleblast.com/index.php/forum/mb-tournaments/9472-2017-summer-tournament?limitstart=0#140056]2017 Summer 1v1 Tournament![/url] I'll go over the rules here for those who need a refresher, but again you don't need to know all these details if you just wanna start betting. Feel free to skip all this and jump right in, using my post below as an example.
+
+Alright, so here's the basic idea. For each match (between two players), there's a [b]pool[/b] of money that will be split amongst everyone who correctly predicts the winner of the match. Each pool starts out at $500, and when you bet on the game, that money goes into the pool.
+
+The money in the pool will be given out [i]proportionately[/i] to the winners based on how much they bet. So if I bet $100 and you bet $200, you'll get twice as much returns as me if we both win.
+
+[b]In addition - as of now - you can also bet on the [i]overall score[/i] of each match![/b] In other words, how many games out of 5 will be won by each player. This is optional, but there's no penalty for getting it wrong and bonus payouts of about 50% for getting it right. (The math here is a bit more complicated, so I won't go into it here; I'll upload my source code soon if you really want to know how it's done. Suffice to say, your net winnings will be approximately 50% more than normal, and closer to that number the more people there are betting.)
+
+The minimum individual bet for each match is $100, and the maximum is $500. You're allowed to bet on as many or as few matches as you want, and predict as many scores as you want, but the best strategy is to bet on all the matches, and predict all the scores. If you want to retract a bet before the match has started, you can do that as well.
+
+You have an unlimited amount of money. The winner is the person who makes the most net gain - total money won, minus total money bet.
+
+[b]Also, you're not allowed to bet on your own matches.[/b]
+
+[size=4][b]Examples:[/b][/size]
+
+[li]Suppose the match is Matan vs. Jeef. The pool starts out at $500.[/li]
+
+[li]Person A bets $100 on Matan.[/li]
+[li]Person B bets $200 on Matan.[/li]
+[li]Person C bets $400 on Jeef.[/li]
+[li]The pool is now $500 + $100 + $200 + $400 = $1200.[/li]
+
+[li]If Matan wins, Person A and Person B will split the $1200, such that Person B gets twice as much as Person A (since Person B bet twice as much money). So Person A will get $400, and Person B will get $800.[/li]
+[li]If Jeef wins, Person C gets the $1200 all to themselves.[/li]
+
+[li]But now, suppose that the players decided to bet on the overall scores as well (which is best strategy):[/li]
+
+[li]Person A bets $100 on Matan to win 4-1.[/li]
+[li]Person B bets $200 on Matan to win 3-2.[/li]
+[li]Person C bets $400 on Jeef to win 5-0.[/li]
+[li]The pool is still $1200, and exactly $1200 will still be given out no matter what.[/li]
+
+[li]If Matan wins 5-0, then none of the score predictions were correct, so the payouts are as above, $400 to Person A, and $800 to Person B.
+[li]If Matan wins 3-2, then Person B correctly predicted the score, so they get a bonus. Since there's only 3 people betting, this bonus is a lot less than 50% (50% would give Person B the whole pot, and make Person A lose money), but it comes out to $875 for Person B, and $325 for Person A.
+[li]If Jeef wins, then the score doesn't matter - Person C wins the $1200 no matter what.[/li]
+
+That's it! Let's get started with our first rounds!

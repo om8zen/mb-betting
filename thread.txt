@@ -1,0 +1,82 @@
+And we're back for our second annual betting thread, for the [url=https://marbleblast.com/index.php/forum/mb-tournaments/9472-2017-summer-tournament?limitstart=0#140056]2017 Summer 1v1 Tournament![/url] I'll go over the rules here for those who need a refresher, but again you don't need to know all these details if you just wanna start betting. Feel free to skip all this and jump right in, using my post below as an example.
+
+Alright, so here's the basic idea. For each match (between two players), there's a [b]pool[/b] of money that will be split amongst everyone who correctly predicts the winner of the match. Each pool starts out at $500, and when you bet on the game, that money goes into the pool.
+
+The money in the pool will be given out [i]proportionately[/i] to the winners based on how much they bet. So if I bet $100 and you bet $200, you'll get twice as much returns as me if we both win.
+
+[b]In addition - as of now - you can also bet on the [i]overall score[/i] of each match![/b] In other words, how many games out of 5 will be won by each player. This is optional, but there's no penalty for getting it wrong and bonus payouts of about 50% for getting it right. (The math here is a bit more complicated, so I won't go into it here; I'll upload my source code soon if you really want to know how it's done. Suffice to say, your net winnings will be approximately 50% more than normal, and closer to that number the more people there are betting.)
+
+The minimum individual bet for each match is $100, and the maximum is $500. You're allowed to bet on as many or as few matches as you want, and predict as many scores as you want, but the best strategy is to bet on all the matches, and predict all the scores. If you want to retract a bet before the match has started, you can do that as well.
+
+You have an unlimited amount of money. The winner is the person who makes the most net gain - total money won, minus total money bet.
+
+[b]Also, you're not allowed to bet on your own matches.[/b]
+
+[size=4][b]Examples:[/b][/size]
+
+[li]Suppose the match is Matan vs. Jeef. The pool starts out at $500.[/li]
+
+[li]Person A bets $100 on Matan.[/li]
+[li]Person B bets $200 on Matan.[/li]
+[li]Person C bets $400 on Jeef.[/li]
+[li]The pool is now $500 + $100 + $200 + $400 = $1200.[/li]
+
+[li]If Matan wins, Person A and Person B will split the $1200, such that Person B gets twice as much as Person A (since Person B bet twice as much money). So Person A will get $400, and Person B will get $800.[/li]
+[li]If Jeef wins, Person C gets the $1200 all to themselves.[/li]
+
+[li]But now, suppose that the players decided to bet on the overall scores as well (which is best strategy):[/li]
+
+[li]Person A bets $100 on Matan to win 4-1.[/li]
+[li]Person B bets $200 on Matan to win 3-2.[/li]
+[li]Person C bets $400 on Jeef to win 5-0.[/li]
+[li]The pool is still $1200, and exactly $1200 will still be given out no matter what.[/li]
+
+[li]If Matan wins 5-0, then none of the score predictions were correct, so the payouts are as above, $400 to Person A, and $800 to Person B.
+[li]If Matan wins 3-2, then Person B correctly predicted the score, so they get a bonus. Since there's only 3 people betting, this bonus is a lot less than 50% (50% would give Person B the whole pot, and make Person A lose money), but it comes out to $875 for Person B, and $325 for Person A.
+[li]If Jeef wins, then the score doesn't matter - Person C wins the $1200 no matter what.[/li]
+
+That's it! Let's get started with our first rounds!
+
+[b][size=5]Round Robin Week 1 (June 24-July 1)[/size][/b]
+
+
+[table]
+[tr] [td][b]Match[/b][/td] [td][b]Pool[/b][/td] [td][b]Betting odds[/b][/td] [td][b]Winner[/b][/td] [/tr]
+[tr] [td][color=#666666]Xedron vs. noby[/color][/td] [td][color=#666666]$7320.69[/color][/td] [td][color=#666666]Xedron 1:4, noby 7:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]MBOUltimate vs. Lichable[/color][/td] [td][color=#AAAAAA]$6198.54[/color][/td] [td][color=#AAAAAA]MBOUltimate 1:5, Lichable 11:1[/color][/td] [td][color=#AAAAAA]MBOUltimate 5-0[/color][/td] [/tr]
+[tr] [td][color=#666666]Invictaa vs. CylinderKnot[/color][/td] [td][color=#666666]$6451.01[/color][/td] [td][color=#666666]Invictaa 1:8, CylinderKnot 32:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]Tue27 vs. Macstr0yer[/color][/td] [td][color=#666666]$5833.33[/color][/td] [td][color=#666666]Tue27 1:4, Macstr0yer 9:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]hPerks vs. Ralph[/color][/td] [td][color=#666666]$7288.76[/color][/td] [td][color=#666666]hPerks 1:13, Ralph 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]Kalle vs. Storminorman[/color][/td] [td][color=#666666]$7199.97[/color][/td] [td][color=#666666]Kalle 1:6, Storminorman 13:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]HiGuy vs. TheEvoker[/color][/td] [td][color=#666666]$7197.96[/color][/td] [td][color=#666666]HiGuy 1:6, TheEvoker 13:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Jackrb vs. MBCollector[/color][/td] [td][color=#AAAAAA]$5467.84[/color][/td] [td][color=#AAAAAA]Jackrb 2:5, MBCollector 4:1[/color][/td] [td][color=#AAAAAA]Jackrb 3-2[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Rosie vs. Peacock[/color][/td] [td][color=#AAAAAA]$7466.26[/color][/td] [td][color=#AAAAAA]Rosie 1:13, Peacock 1:0[/color][/td] [td][color=#AAAAAA]Rosie 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Eguy vs. TheTurk[/color][/td] [td][color=#AAAAAA]$5731.45[/color][/td] [td][color=#AAAAAA]Eguy 1:5, TheTurk 10:1[/color][/td] [td][color=#AAAAAA]Eguy 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Lee vs. Sefaro[/color][/td] [td][color=#AAAAAA]$5228.34[/color][/td] [td][color=#AAAAAA]Lee 1:2, Sefaro 3:1[/color][/td] [td][color=#AAAAAA]Lee 3-2[/color][/td] [/tr]
+[tr] [td][color=#666666]Robert vs. Weather[/color][/td] [td][color=#666666]$5799.95[/color][/td] [td][color=#666666]Robert 1:7, Weather 32:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td]––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
+[/table]
+
+
+[b][size=5]Standings[/size][/b]
+
+
+[table]
+[tr] [td][b]Player[/b][/td] [td][b]Net $[/b][/td] [td][b]Predictions Correct[/b][/td] [td][b]Correct %[/b][/td] [/tr]
+[tr] [td]Robert[/td] [td]$690.30[/td] [td]5/5[/td] [td]100%[/td] [/tr]
+[tr] [td]Tue27[/td] [td]$637.35[/td] [td]5/5[/td] [td]100%[/td] [/tr]
+[tr] [td]Kalle[/td] [td]$631.77[/td] [td]5/5[/td] [td]100%[/td] [/tr]
+[tr] [td]Frostfire[/td] [td]$569.60[/td] [td]5/5[/td] [td]100%[/td] [/tr]
+[tr] [td]TheTurk[/td] [td]$496.18[/td] [td]4/4[/td] [td]100%[/td] [/tr]
+[tr] [td]Xedron[/td] [td]$347.03[/td] [td]5/5[/td] [td]100%[/td] [/tr]
+[tr] [td]Jackrb[/td] [td]$123.70[/td] [td]3/4[/td] [td]75%[/td] [/tr]
+[tr] [td]Regislian[/td] [td]$110.42[/td] [td]4/5[/td] [td]80%[/td] [/tr]
+[tr] [td]hPerks[/td] [td]$108.76[/td] [td]4/5[/td] [td]80%[/td] [/tr]
+[tr] [td]MBOUltimate[/td] [td]$66.14[/td] [td]3/4[/td] [td]75%[/td] [/tr]
+[tr] [td]Eguy[/td] [td]$52.44[/td] [td]2/3[/td] [td]67%[/td] [/tr]
+[tr] [td]HiGuy[/td] [td]$2.44[/td] [td]2/3[/td] [td]67%[/td] [/tr]
+[tr] [td]Threefolder[/td] [td]-$35.74[/td] [td]4/5[/td] [td]80%[/td] [/tr]
+[tr] [td]Rosie[/td] [td]-$43.77[/td] [td]3/4[/td] [td]75%[/td] [/tr]
+[tr] [td]Lamp[/td] [td]-$1256.64[/td] [td]2/5[/td] [td]40%[/td] [/tr]
+[tr] [td]––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––[/td] [td]––––––––[/td]
+[/table]
