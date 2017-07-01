@@ -1,18 +1,5 @@
 # -*- coding: cp1252 -*-
 
-def str_odds(prob):
-    STR_ODDS = ['1:0', '100:1', '50:1', '32:1', '25:1', '20:1', '15:1', '13:1', '11:1', '10:1',
-        '9:1', '8:1', '7:1', '7:1', '6:1', '6:1', '5:1', '5:1', '4:1', '4:1',
-        '4:1', '4:1', '7:2', '7:2', '3:1', '3:1', '3:1', '8:3', '5:2', '7:3',
-        '7:3', '7:3', '2:1', '2:1', '2:1', '2:1', '5:3', '5:3', '5:3', '3:2',
-        '3:2', '3:2', '4:3', '4:3', '5:4', '5:4', '6:5', '6:5', '1:1', '1:1',
-        '1:1', '1:1', '1:1', '5:6', '5:6', '4:5', '4:5', '3:4', '3:4', '2:3',
-        '2:3', '2:3', '3:5', '3:5', '3:5', '1:2', '1:2', '1:2', '1:2', '3:7',
-        '3:7', '3:7', '2:5', '3:8', '1:3', '1:3', '1:3', '2:7', '2:7', '1:4',
-        '1:4', '1:4', '1:4', '1:5', '1:5', '1:6', '1:6', '1:7', '1:7', '1:8',
-        '1:9', '1:10', '1:11', '1:13', '1:15', '1:20', '1:25', '1:32', '1:50', '1:100', '0:1']
-    return STR_ODDS[int(round(prob * 100))]
-
 def str_money(money):
     cents = int(abs(money) % 100)
     return "{sign}${dollars}.{cents}".format(
@@ -305,7 +292,7 @@ class Round:
         return self.group([winner] + losers).win(winner, winning_score)
 
 class Group:
-    FORMAT = "[tr] [td][color=#{color}]{player1} vs. {player2}[/color][/td] [td][color=#{color}]{pool}[/color][/td] [td][color=#{color}]{player1} {odds1}, {player2} {odds2}[/color][/td] [td][color=#{color}]{winner} {score}[/color][/td] [/tr]"
+    FORMAT = "[tr] [td][color=#{color}]{player1} vs. {player2}[/color][/td] [td][color=#{color}]{pool}[/color][/td] [td][color=#{color}]{odds1}, {odds2}[/color][/td] [td][color=#{color}]{winner} {score}[/color][/td] [/tr]"
     
     def __init__(self, round, players, initial_pool = 50000):
         self.round, self.players, self.initial_pool = round, players, initial_pool
@@ -352,14 +339,17 @@ class Group:
         return self.initial_pool + sum(bet.money for bet in self.bets)
 
     def odds(self):
+        pool = self.pool() + 0.0
         odds = []
         for player in self.players:
             player_totalbet = 0
             for bet in self.bets:
                 if bet.winner == player:
                     player_totalbet += bet.money
-            odds.append(str_odds(player_totalbet / (self.pool() + 0.0)))
-        return odds
+            proportion = player_totalbet / pool
+            odds.append(Odds(player, proportion))
+
+        return sorted(odds, key = lambda o: -o.proportion)
 
     def score(self):
         return "{}-{}".format(self.winning_score, 5 - self.winning_score) if self.is_finished else ""
@@ -370,6 +360,28 @@ class Group:
         self.is_finished = True
 
         return Update(self, winner, winning_score)
+
+class Odds:
+    FORMAT = "{player} {odds}"
+    STR_ODDS = ['1:0', '100:1', '50:1', '32:1', '25:1', '20:1', '15:1', '13:1', '11:1', '10:1',
+        '9:1', '8:1', '7:1', '7:1', '6:1', '6:1', '5:1', '5:1', '4:1', '4:1',
+        '4:1', '4:1', '7:2', '7:2', '3:1', '3:1', '3:1', '8:3', '5:2', '7:3',
+        '7:3', '7:3', '2:1', '2:1', '2:1', '2:1', '5:3', '5:3', '5:3', '3:2',
+        '3:2', '3:2', '4:3', '4:3', '5:4', '5:4', '6:5', '6:5', '1:1', '1:1',
+        '1:1', '1:1', '1:1', '5:6', '5:6', '4:5', '4:5', '3:4', '3:4', '2:3',
+        '2:3', '2:3', '3:5', '3:5', '3:5', '1:2', '1:2', '1:2', '1:2', '3:7',
+        '3:7', '3:7', '2:5', '3:8', '1:3', '1:3', '1:3', '2:7', '2:7', '1:4',
+        '1:4', '1:4', '1:4', '1:5', '1:5', '1:6', '1:6', '1:7', '1:7', '1:8',
+        '1:9', '1:10', '1:11', '1:13', '1:15', '1:20', '1:25', '1:32', '1:50', '1:100', '0:1']
+    
+    def __init__(self, player, proportion):
+        self.player, self.proportion = player, proportion
+
+    def __repr__(self):
+        return self.FORMAT.format(
+            player = self.player.name,
+            odds = self.STR_ODDS[int(round(self.proportion * 100))]
+            )
 
 class Bet:
     def __init__(self, gambler, winner, money, winning_score = -1):

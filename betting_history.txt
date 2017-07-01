@@ -217,4 +217,93 @@ gambler set Frostfire
 bet 400 Robert 4 Weather
 win Lee 3 Sefaro
 win Jackrb 3 MBCollector
+win Tue27 3 Macstr0yer
+commit
+win Invictaa 5 CylinderKnot
+commit
+win Kalle 5 Storminorman
+win Xedron 5 noby
+gambler set Xedron
+bet 500 Robert 5 Weather
+win Robert 4 Weather
+win HiGuy 5 TheEvoker
+commit
+round add RR2 Round Robin Week 2 (July 1-July 8[b][/b])
+round set RR2
+group Xedron Lichable
+group Invictaa Tue27
+group CylinderKnot noby
+group MBOUltimate Macstr0yer
+group hPerks Storminorman
+group HiGuy Jackrb
+group TheEvoker Ralph
+group Kalle MBCollector
+group Rosie TheTurk
+group Lee Robert
+group Sefaro Peacock
+group Eguy Weather
+gambler set hPerks
+bet 500 Xedron 5 Lichable
+bet 500 Invictaa 5 Tue27
+bet 300 CylinderKnot 3 noby
+bet 500 MBOUltimate 4 Macstr0yer
+bet 200 HiGuy 3 Jackrb
+bet 200 TheEvoker 3 Ralph
+bet 100 MBCollector 3 Kalle
+bet 500 Rosie 5 TheTurk
+bet 200 Robert 3 Lee
+bet 500 Sefaro 5 Peacock
+bet 500 Eguy 4 Weather
+gambler set Lamp
+bet 500 Xedron 5 Lichable
+bet 500 Invictaa 5 Tue27
+bet 500 noby 5 CylinderKnot
+bet 500 Macstr0yer 5 MBOUltimate
+bet 500 Jackrb 5 HiGuy
+bet 500 TheEvoker 5 Ralph
+bet 500 Kalle 5 MBCollector
+bet 500 Rosie 5 TheTurk
+bet 500 Robert 5 Lee
+bet 500 Sefaro 5 Peacock
+bet 500 Eguy 5 Weather
+bet 500 hPerks 5 Storminorman
+gambler set Frostfire
+bet 500 Xedron 5 Lichable
+bet 500 Invictaa 4 Tue27
+bet 500 noby 4 CylinderKnot
+bet 500 MBOUltimate 4 Macstr0yer
+bet 500 hPerks 5 Storminorman
+bet 400 HiGuy 3 Jackrb
+bet 500 TheEvoker 5 Ralph
+bet 500 Kalle 5 MBCollector
+bet 500 Rosie 5 TheTurk
+bet 400 Robert 3 Lee
+bet 500 Sefaro 5 Peacock
+bet 500 Eguy 5 Weather
+gambler set Xedron
+bet 500 Invictaa 4 Tue27
+bet 500 noby 3 CylinderKnot
+bet 500 MBOUltimate 5 Macstr0yer
+bet 500 hPerks 5 Storminorman
+bet 350 HiGuy 3 Jackrb
+bet 500 TheEvoker 4 Ralph
+bet 500 Kalle 4 MBCollector
+bet 500 Rosie 5 TheTurk
+bet 350 Robert 3 Lee
+bet 500 Sefaro 5 Peacock
+bet 500 Eguy 5 Weather
+gambler set Rosie
+bet 500 Xedron 5 Lichable
+bet 500 Invictaa 4 Tue27
+bet 500 noby 4 CylinderKnot
+bet 500 MBOUltimate 4 Macstr0yer
+bet 500 hPerks 5 Storminorman
+bet 400 HiGuy 3 Jackrb
+bet 500 TheEvoker 4 Ralph
+bet 500 Kalle 5 MBCollector
+bet 400 Lee 3 Robert
+bet 500 Sefaro 5 Peacock
+bet 500 Eguy 5 Weather
+commit
+commit
 commit
