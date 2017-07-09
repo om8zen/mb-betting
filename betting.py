@@ -72,6 +72,8 @@ class Thread:
 
         return self.updates.add(self.rounds.get(round_name).win(self.players.get(winner_name), [self.players.get(loser_name) for loser_name in loser_names], winning_score))
 
+    def finish(self, round_name, player_names):
+        return self.group(round_name, player_names).finish()
 
             
     def interpret(self, arguments):
@@ -105,6 +107,8 @@ class Thread:
             return self.bet(round_name = self.round.name, gambler_name = self.gambler.name, money = float(arguments[1]) * 100, winner_name = arguments[2], winning_score = int(arguments[3]), loser_names = arguments[4:])
         elif arguments[0] == "win":
             return self.win(round_name = self.round.name, winner_name = arguments[1], winning_score = int(arguments[2]), loser_names = arguments[3:])
+        elif arguments[0] == "finish":
+            return self.finish(round_name = self.round.name, player_names = arguments[1:])
             
         elif arguments[0] == "commit":
             return self.updates.commit()
@@ -181,7 +185,11 @@ class Gamblers:
             print self.get(" ".join(arguments[1:]))
 
 class Rounds:
-    FORMAT = "{rounds}"
+    FORMAT = """{rounds_in_progress}
+
+[spoiler]
+{finished_rounds}
+[/spoiler]"""
 
     def __init__(self):
         self.rounds = []
@@ -196,7 +204,10 @@ class Rounds:
         return round
 
     def __repr__(self):
-        return self.FORMAT.format(rounds = "\n\n\n".join([repr(round) for round in self.rounds]))
+        return self.FORMAT.format(
+            rounds_in_progress = "\n\n\n".join([repr(round) for round in self.rounds if not round.is_finished()]),
+            finished_rounds = "\n\n\n".join([repr(round) for round in self.rounds if round.is_finished()])
+            )
 
     def interpret(self, arguments):
         if len(arguments) == 0:
@@ -262,7 +273,7 @@ class Round:
 [table]
 [tr] [td][b]Match[/b][/td] [td][b]Pool[/b][/td] [td][b]Betting odds[/b][/td] [td][b]Winner[/b][/td] [/tr]
 {groups}
-[tr] [td]––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
+[tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
 [/table]"""
     
     def __init__(self, name, display_name):
@@ -291,6 +302,9 @@ class Round:
     def win(self, winner, losers, winning_score):
         return self.group([winner] + losers).win(winner, winning_score)
 
+    def is_finished(self):
+        return len([group for group in self.groups if not group.is_finished]) == 0
+
 class Group:
     FORMAT = "[tr] [td][color=#{color}]{player1} vs. {player2}[/color][/td] [td][color=#{color}]{pool}[/color][/td] [td][color=#{color}]{odds1}, {odds2}[/color][/td] [td][color=#{color}]{winner} {score}[/color][/td] [/tr]"
     
@@ -299,7 +313,7 @@ class Group:
         
         self.is_finished = False
         self.winner = None
-        self.winning_score = 0
+        self.winning_score = None
         
         self.bets = []
 
@@ -312,7 +326,7 @@ class Group:
                 pool = str_money(self.pool()),
                 odds1 = odds[0],
                 odds2 = odds[1],
-                winner = self.winner if self.is_finished else "",
+                winner = self.winner if self.winner != None else "",
                 score = self.score(),
                 color = "AAAAAA" if self.is_finished else "666666"
                 )
@@ -352,7 +366,7 @@ class Group:
         return sorted(odds, key = lambda o: -o.proportion)
 
     def score(self):
-        return "{}-{}".format(self.winning_score, 5 - self.winning_score) if self.is_finished else ""
+        return "{}-{}".format(self.winning_score, 5 - self.winning_score) if self.winning_score != None else ""
 
     def win(self, winner, winning_score):
         self.winner = winner
@@ -360,6 +374,11 @@ class Group:
         self.is_finished = True
 
         return Update(self, winner, winning_score)
+
+    def finish(self):
+        self.is_finished = True
+
+        return True
 
 class Odds:
     FORMAT = "{player} {odds}"
