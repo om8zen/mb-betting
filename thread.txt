@@ -4,7 +4,7 @@ Alright, so here's the basic idea. For each match (between two players), there's
 
 The money in the pool will be given out [i]proportionately[/i] to the winners based on how much they bet. So if I bet $100 and you bet $200, you'll get twice as much returns as me if we both win.
 
-[b]In addition - as of now - you can also bet on the [i]overall score[/i] of each match![/b] In other words, how many games out of 5 will be won by each player. This is optional, but there's no penalty for getting it wrong and bonus payouts of about 50% for getting it right. (The math here is a bit more complicated, so I won't go into it here; I'll upload my source code soon if you really want to know how it's done. Suffice to say, your net winnings will be approximately 50% more than normal, and closer to that number the more people there are betting.)
+[b]In addition - as of now - you can also bet on the [i]overall score[/i] of each match![/b] In other words, how many games out of 5 will be won by each player. This is optional, but there's no penalty for getting it wrong and bonus payouts of about 50% for getting it right. (The math here is a bit more complicated, so I won't go into it here; check my source code [url=https://github.com/hperks/mb-betting]here[/url] if you really want to know how it's done. Suffice to say, your net winnings will be approximately 50% more than normal, and closer to that number the more people there are betting.)
 
 The minimum individual bet for each match is $100, and the maximum is $500. You're allowed to bet on as many or as few matches as you want, and predict as many scores as you want, but the best strategy is to bet on all the matches, and predict all the scores. If you want to retract a bet before the match has started, you can do that as well.
 
@@ -37,44 +37,44 @@ You have an unlimited amount of money. The winner is the person who makes the mo
 
 That's it! Let's get started with our first rounds!
 
-[b][size=5]Round Robin Week 2 (July 1-July 8[b][/b])[/size][/b]
-
-
-[table]
-[tr] [td][b]Match[/b][/td] [td][b]Pool[/b][/td] [td][b]Betting odds[/b][/td] [td][b]Winner[/b][/td] [/tr]
-[tr] [td][color=#AAAAAA]Xedron vs. Lichable[/color][/td] [td][color=#AAAAAA]$7411.11[/color][/td] [td][color=#AAAAAA]Xedron 1:13, Lichable 1:0[/color][/td] [td][color=#AAAAAA]Xedron 4-1[/color][/td] [/tr]
-[tr] [td][color=#AAAAAA]Invictaa vs. Tue27[/color][/td] [td][color=#AAAAAA]$7138.56[/color][/td] [td][color=#AAAAAA]Invictaa 1:4, Tue27 6:1[/color][/td] [td][color=#AAAAAA]Tue27 3-2[/color][/td] [/tr]
-[tr] [td][color=#666666]CylinderKnot vs. noby[/color][/td] [td][color=#666666]$6370.69[/color][/td] [td][color=#666666]noby 1:3, CylinderKnot 4:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]MBOUltimate vs. Macstr0yer[/color][/td] [td][color=#666666]$6300.00[/color][/td] [td][color=#666666]MBOUltimate 1:11, Macstr0yer 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#AAAAAA]hPerks vs. Storminorman[/color][/td] [td][color=#AAAAAA]$7499.99[/color][/td] [td][color=#AAAAAA]hPerks 1:13, Storminorman 1:0[/color][/td] [td][color=#AAAAAA]hPerks 5-0[/color][/td] [/tr]
-[tr] [td][color=#AAAAAA]HiGuy vs. Jackrb[/color][/td] [td][color=#AAAAAA]$5050.01[/color][/td] [td][color=#AAAAAA]Jackrb 5:6, HiGuy 5:3[/color][/td] [td][color=#AAAAAA]Jackrb 4-1[/color][/td] [/tr]
-[tr] [td][color=#AAAAAA]TheEvoker vs. Ralph[/color][/td] [td][color=#AAAAAA]$6087.32[/color][/td] [td][color=#AAAAAA]TheEvoker 1:9, Ralph 50:1[/color][/td] [td][color=#AAAAAA]TheEvoker 5-0[/color][/td] [/tr]
-[tr] [td][color=#AAAAAA]Kalle vs. MBCollector[/color][/td] [td][color=#AAAAAA]$6379.83[/color][/td] [td][color=#AAAAAA]Kalle 1:10, MBCollector 50:1[/color][/td] [td][color=#AAAAAA]MBCollector 4-1[/color][/td] [/tr]
-[tr] [td][color=#AAAAAA]Rosie vs. TheTurk[/color][/td] [td][color=#AAAAAA]$6367.26[/color][/td] [td][color=#AAAAAA]Rosie 1:11, TheTurk 1:0[/color][/td] [td][color=#AAAAAA]Rosie 5-0[/color][/td] [/tr]
-[tr] [td][color=#AAAAAA]Lee vs. Robert[/color][/td] [td][color=#AAAAAA]$5143.89[/color][/td] [td][color=#AAAAAA]Robert 2:5, Lee 4:1[/color][/td] [td][color=#AAAAAA]Lee 4-1[/color][/td] [/tr]
-[tr] [td][color=#AAAAAA]Sefaro vs. Peacock[/color][/td] [td][color=#AAAAAA]$7874.45[/color][/td] [td][color=#AAAAAA]Sefaro 1:15, Peacock 1:0[/color][/td] [td][color=#AAAAAA]Sefaro 5-0[/color][/td] [/tr]
-[tr] [td][color=#666666]Eguy vs. Weather[/color][/td] [td][color=#666666]$7266.82[/color][/td] [td][color=#666666]Eguy 1:13, Weather 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
-[/table]
-
-
 [b][size=5]Round Robin Week 3 (July 8-July 15)[/size][/b]
 
 
 [table]
 [tr] [td][b]Match[/b][/td] [td][b]Pool[/b][/td] [td][b]Betting odds[/b][/td] [td][b]Winner[/b][/td] [/tr]
-[tr] [td][color=#666666]Xedron vs. CylinderKnot[/color][/td] [td][color=#666666]$4000.00[/color][/td] [td][color=#666666]Xedron 1:7, CylinderKnot 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]MBOUltimate vs. Invictaa[/color][/td] [td][color=#666666]$4500.00[/color][/td] [td][color=#666666]MBOUltimate 1:8, Invictaa 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]Tue27 vs. noby[/color][/td] [td][color=#666666]$3400.00[/color][/td] [td][color=#666666]Tue27 1:1, noby 2:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]Macstr0yer vs. Lichable[/color][/td] [td][color=#666666]$2950.00[/color][/td] [td][color=#666666]Lichable 5:6, Macstr0yer 7:3[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]hPerks vs. TheEvoker[/color][/td] [td][color=#666666]$3000.00[/color][/td] [td][color=#666666]hPerks 1:5, TheEvoker 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]Kalle vs. HiGuy[/color][/td] [td][color=#666666]$3550.00[/color][/td] [td][color=#666666]Kalle 1:4, HiGuy 13:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]Jackrb vs. Ralph[/color][/td] [td][color=#666666]$4000.00[/color][/td] [td][color=#666666]Jackrb 1:7, Ralph 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]MBCollector vs. Storminorman[/color][/td] [td][color=#666666]$4500.00[/color][/td] [td][color=#666666]MBCollector 1:8, Storminorman 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]Rosie vs. Sefaro[/color][/td] [td][color=#666666]$4200.00[/color][/td] [td][color=#666666]Rosie 1:7, Sefaro 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]Eguy vs. Lee[/color][/td] [td][color=#666666]$3500.00[/color][/td] [td][color=#666666]Eguy 1:5, Lee 32:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]Robert vs. Peacock[/color][/td] [td][color=#666666]$4000.00[/color][/td] [td][color=#666666]Robert 1:7, Peacock 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
-[tr] [td][color=#666666]Weather vs. TheTurk[/color][/td] [td][color=#666666]$3150.00[/color][/td] [td][color=#666666]TheTurk 1:1, Weather 5:3[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Xedron vs. CylinderKnot[/color][/td] [td][color=#AAAAAA]$7301.01[/color][/td] [td][color=#AAAAAA]Xedron 1:13, CylinderKnot 1:0[/color][/td] [td][color=#AAAAAA]Xedron 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]MBOUltimate vs. Invictaa[/color][/td] [td][color=#AAAAAA]$6894.23[/color][/td] [td][color=#AAAAAA]MBOUltimate 1:10, Invictaa 100:1[/color][/td] [td][color=#AAAAAA]MBOUltimate 4-1[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Tue27 vs. noby[/color][/td] [td][color=#AAAAAA]$6220.69[/color][/td] [td][color=#AAAAAA]Tue27 1:1, noby 4:3[/color][/td] [td][color=#AAAAAA]Tue27 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Macstr0yer vs. Lichable[/color][/td] [td][color=#AAAAAA]$5383.33[/color][/td] [td][color=#AAAAAA]Lichable 1:1, Macstr0yer 4:3[/color][/td] [td][color=#AAAAAA]Macstr0yer 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]hPerks vs. TheEvoker[/color][/td] [td][color=#AAAAAA]$6389.65[/color][/td] [td][color=#AAAAAA]hPerks 1:11, TheEvoker 1:0[/color][/td] [td][color=#AAAAAA]hPerks 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Kalle vs. HiGuy[/color][/td] [td][color=#AAAAAA]$5722.48[/color][/td] [td][color=#AAAAAA]Kalle 2:5, HiGuy 4:1[/color][/td] [td][color=#AAAAAA]Kalle 3-2[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Jackrb vs. Ralph[/color][/td] [td][color=#AAAAAA]$7000.00[/color][/td] [td][color=#AAAAAA]Jackrb 1:10, Ralph 100:1[/color][/td] [td][color=#AAAAAA]Jackrb 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]MBCollector vs. Storminorman[/color][/td] [td][color=#AAAAAA]$7372.91[/color][/td] [td][color=#AAAAAA]MBCollector 1:11, Storminorman 100:1[/color][/td] [td][color=#AAAAAA]MBCollector 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Rosie vs. Sefaro[/color][/td] [td][color=#AAAAAA]$6193.74[/color][/td] [td][color=#AAAAAA]Rosie 1:11, Sefaro 1:0[/color][/td] [td][color=#AAAAAA]Rosie 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Eguy vs. Lee[/color][/td] [td][color=#AAAAAA]$6287.64[/color][/td] [td][color=#AAAAAA]Eguy 1:4, Lee 8:1[/color][/td] [td][color=#AAAAAA]Lee 3-2[/color][/td] [/tr]
+[tr] [td][color=#666666]Robert vs. Peacock[/color][/td] [td][color=#666666]$7444.44[/color][/td] [td][color=#666666]Robert 1:13, Peacock 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Weather vs. TheTurk[/color][/td] [td][color=#AAAAAA]$5152.02[/color][/td] [td][color=#AAAAAA]TheTurk 6:5, Weather 5:4[/color][/td] [td][color=#AAAAAA]Weather 3-2[/color][/td] [/tr]
+[tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
+[/table]
+
+
+[b][size=5]Round Robin Week 4 (July 15-July 22)[/size][/b]
+
+
+[table]
+[tr] [td][b]Match[/b][/td] [td][b]Pool[/b][/td] [td][b]Betting odds[/b][/td] [td][b]Winner[/b][/td] [/tr]
+[tr] [td][color=#666666]Xedron vs. Macstr0yer[/color][/td] [td][color=#666666]$5444.44[/color][/td] [td][color=#666666]Xedron 1:7, Macstr0yer 25:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]Invictaa vs. Lichable[/color][/td] [td][color=#666666]$4731.64[/color][/td] [td][color=#666666]Invictaa 1:4, Lichable 10:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]MBOUltimate vs. noby[/color][/td] [td][color=#666666]$4620.00[/color][/td] [td][color=#666666]MBOUltimate 1:6, noby 25:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]Tue27 vs. CylinderKnot[/color][/td] [td][color=#666666]$4663.51[/color][/td] [td][color=#666666]Tue27 3:7, CylinderKnot 4:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]hPerks vs. MBCollector[/color][/td] [td][color=#666666]$4037.23[/color][/td] [td][color=#666666]hPerks 1:6, MBCollector 50:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]HiGuy vs. Storminorman[/color][/td] [td][color=#666666]$5487.47[/color][/td] [td][color=#666666]HiGuy 1:10, Storminorman 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]Kalle vs. Ralph[/color][/td] [td][color=#666666]$5399.99[/color][/td] [td][color=#666666]Kalle 1:10, Ralph 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]Jackrb vs. TheEvoker[/color][/td] [td][color=#666666]$4778.13[/color][/td] [td][color=#666666]Jackrb 1:4, TheEvoker 9:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]Rosie vs. Weather[/color][/td] [td][color=#666666]$5099.95[/color][/td] [td][color=#666666]Rosie 1:7, Weather 50:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Lee vs. TheTurk[/color][/td] [td][color=#AAAAAA]$3999.90[/color][/td] [td][color=#AAAAAA]Lee 1:6, TheTurk 32:1[/color][/td] [td][color=#AAAAAA]Lee 5-0[/color][/td] [/tr]
+[tr] [td][color=#666666]Eguy vs. Peacock[/color][/td] [td][color=#666666]$5998.94[/color][/td] [td][color=#666666]Eguy 1:11, Peacock 1:0[/color][/td] [td][color=#666666] [/color][/td] [/tr]
+[tr] [td][color=#666666]Robert vs. Sefaro[/color][/td] [td][color=#666666]$3933.33[/color][/td] [td][color=#666666]Robert 3:4, Sefaro 7:3[/color][/td] [td][color=#666666] [/color][/td] [/tr]
 [tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
 [/table]
 
@@ -98,6 +98,27 @@ That's it! Let's get started with our first rounds!
 [tr] [td][color=#AAAAAA]Robert vs. Weather[/color][/td] [td][color=#AAAAAA]$6099.95[/color][/td] [td][color=#AAAAAA]Robert 1:8, Weather 32:1[/color][/td] [td][color=#AAAAAA]Robert 4-1[/color][/td] [/tr]
 [tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
 [/table]
+
+
+[b][size=5]Round Robin Week 2 (July 1-July 8[b][/b])[/size][/b]
+
+
+[table]
+[tr] [td][b]Match[/b][/td] [td][b]Pool[/b][/td] [td][b]Betting odds[/b][/td] [td][b]Winner[/b][/td] [/tr]
+[tr] [td][color=#AAAAAA]Xedron vs. Lichable[/color][/td] [td][color=#AAAAAA]$7411.11[/color][/td] [td][color=#AAAAAA]Xedron 1:13, Lichable 1:0[/color][/td] [td][color=#AAAAAA]Xedron 4-1[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Invictaa vs. Tue27[/color][/td] [td][color=#AAAAAA]$7138.56[/color][/td] [td][color=#AAAAAA]Invictaa 1:4, Tue27 6:1[/color][/td] [td][color=#AAAAAA]Tue27 3-2[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]CylinderKnot vs. noby[/color][/td] [td][color=#AAAAAA]$6370.69[/color][/td] [td][color=#AAAAAA]noby 1:3, CylinderKnot 4:1[/color][/td] [td][color=#AAAAAA]noby 3-2[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]MBOUltimate vs. Macstr0yer[/color][/td] [td][color=#AAAAAA]$6300.00[/color][/td] [td][color=#AAAAAA]MBOUltimate 1:11, Macstr0yer 1:0[/color][/td] [td][color=#AAAAAA]MBOUltimate 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]hPerks vs. Storminorman[/color][/td] [td][color=#AAAAAA]$7499.99[/color][/td] [td][color=#AAAAAA]hPerks 1:13, Storminorman 1:0[/color][/td] [td][color=#AAAAAA]hPerks 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]HiGuy vs. Jackrb[/color][/td] [td][color=#AAAAAA]$5050.01[/color][/td] [td][color=#AAAAAA]Jackrb 5:6, HiGuy 5:3[/color][/td] [td][color=#AAAAAA]Jackrb 4-1[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]TheEvoker vs. Ralph[/color][/td] [td][color=#AAAAAA]$6087.32[/color][/td] [td][color=#AAAAAA]TheEvoker 1:9, Ralph 50:1[/color][/td] [td][color=#AAAAAA]TheEvoker 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Kalle vs. MBCollector[/color][/td] [td][color=#AAAAAA]$6379.83[/color][/td] [td][color=#AAAAAA]Kalle 1:10, MBCollector 50:1[/color][/td] [td][color=#AAAAAA]MBCollector 4-1[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Rosie vs. TheTurk[/color][/td] [td][color=#AAAAAA]$6367.26[/color][/td] [td][color=#AAAAAA]Rosie 1:11, TheTurk 1:0[/color][/td] [td][color=#AAAAAA]Rosie 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Lee vs. Robert[/color][/td] [td][color=#AAAAAA]$5143.89[/color][/td] [td][color=#AAAAAA]Robert 2:5, Lee 4:1[/color][/td] [td][color=#AAAAAA]Lee 4-1[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Sefaro vs. Peacock[/color][/td] [td][color=#AAAAAA]$7874.45[/color][/td] [td][color=#AAAAAA]Sefaro 1:15, Peacock 1:0[/color][/td] [td][color=#AAAAAA]Sefaro 5-0[/color][/td] [/tr]
+[tr] [td][color=#AAAAAA]Eguy vs. Weather[/color][/td] [td][color=#AAAAAA]$7266.82[/color][/td] [td][color=#AAAAAA]Eguy 1:13, Weather 1:0[/color][/td] [td][color=#AAAAAA]Eguy 5-0[/color][/td] [/tr]
+[tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
+[/table]
 [/spoiler]
 
 
@@ -106,20 +127,21 @@ That's it! Let's get started with our first rounds!
 
 [table]
 [tr] [td][b]Player[/b][/td] [td][b]Net $[/b][/td] [td][b]Predictions Correct[/b][/td] [td][b]Correct %[/b][/td] [/tr]
-[tr] [td]hPerks[/td] [td]$7452.33[/td] [td]15/19[/td] [td]79%[/td] [/tr]
-[tr] [td]TheTurk[/td] [td]$3666.78[/td] [td]16/18[/td] [td]89%[/td] [/tr]
-[tr] [td]Frostfire[/td] [td]$3067.01[/td] [td]17/20[/td] [td]85%[/td] [/tr]
-[tr] [td]Rosie[/td] [td]$988.79[/td] [td]14/18[/td] [td]78%[/td] [/tr]
-[tr] [td]Robert[/td] [td]$649.26[/td] [td]16/18[/td] [td]89%[/td] [/tr]
-[tr] [td]Tue27[/td] [td]$479.08[/td] [td]16/18[/td] [td]89%[/td] [/tr]
-[tr] [td]Kalle[/td] [td]$273.53[/td] [td]15/18[/td] [td]83%[/td] [/tr]
-[tr] [td]Threefolder[/td] [td]-$97.75[/td] [td]15/20[/td] [td]75%[/td] [/tr]
-[tr] [td]Eguy[/td] [td]-$226.09[/td] [td]12/16[/td] [td]75%[/td] [/tr]
-[tr] [td]MBOUltimate[/td] [td]-$333.11[/td] [td]15/19[/td] [td]79%[/td] [/tr]
-[tr] [td]HiGuy[/td] [td]-$351.21[/td] [td]8/15[/td] [td]53%[/td] [/tr]
-[tr] [td]Jackrb[/td] [td]-$412.67[/td] [td]13/17[/td] [td]76%[/td] [/tr]
-[tr] [td]Regislian[/td] [td]-$833.95[/td] [td]15/20[/td] [td]75%[/td] [/tr]
-[tr] [td]Xedron[/td] [td]-$900.85[/td] [td]14/18[/td] [td]78%[/td] [/tr]
-[tr] [td]Lamp[/td] [td]-$3421.14[/td] [td]11/20[/td] [td]55%[/td] [/tr]
+[tr] [td]hPerks[/td] [td]$6962.99[/td] [td]24/33[/td] [td]73%[/td] [/tr]
+[tr] [td]Rosie[/td] [td]$5576.71[/td] [td]26/32[/td] [td]81%[/td] [/tr]
+[tr] [td]Frostfire[/td] [td]$3894.50[/td] [td]29/35[/td] [td]83%[/td] [/tr]
+[tr] [td]TheTurk[/td] [td]$2784.88[/td] [td]25/30[/td] [td]83%[/td] [/tr]
+[tr] [td]Jackrb[/td] [td]$702.61[/td] [td]24/31[/td] [td]77%[/td] [/tr]
+[tr] [td]Tue27[/td] [td]$653.23[/td] [td]28/32[/td] [td]88%[/td] [/tr]
+[tr] [td]MBOUltimate[/td] [td]$599.94[/td] [td]26/32[/td] [td]81%[/td] [/tr]
+[tr] [td]Eguy[/td] [td]$327.79[/td] [td]21/28[/td] [td]75%[/td] [/tr]
+[tr] [td]Robert[/td] [td]$296.04[/td] [td]27/32[/td] [td]84%[/td] [/tr]
+[tr] [td]HiGuy[/td] [td]$245.13[/td] [td]16/27[/td] [td]59%[/td] [/tr]
+[tr] [td]Threefolder[/td] [td]$236.39[/td] [td]25/34[/td] [td]74%[/td] [/tr]
+[tr] [td]TheEvoker[/td] [td]$76.92[/td] [td]1/1[/td] [td]100%[/td] [/tr]
+[tr] [td]Kalle[/td] [td]$25.98[/td] [td]25/31[/td] [td]81%[/td] [/tr]
+[tr] [td]Regislian[/td] [td]-$199.24[/td] [td]26/33[/td] [td]79%[/td] [/tr]
+[tr] [td]Xedron[/td] [td]-$1062.87[/td] [td]23/30[/td] [td]77%[/td] [/tr]
+[tr] [td]Lamp[/td] [td]-$3621.06[/td] [td]21/33[/td] [td]64%[/td] [/tr]
 [tr] [td]––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––[/td] [td]––––––––[/td]
 [/table]

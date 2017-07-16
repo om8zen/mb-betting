@@ -92,11 +92,15 @@ class Thread:
             return self.updates.interpret(arguments[1:])
 
         elif arguments[0] == "gambler":
-            if arguments[1] in ["add", "set"]:
+            if len(arguments) == 1:
+                print self.gambler.name
+            elif arguments[1] in ["add", "set"]:
                 self.gambler = self.gamblers.get(arguments[2])
                 return self.gambler
         elif arguments[0] == "round":
-            if arguments[1] in ["add", "set"]:
+            if len(arguments) == 1:
+                print self.round.name
+            elif arguments[1] in ["add", "set"]:
                 self.round = self.rounds.get(arguments[2], " ".join(arguments[3:]))
                 return self.round
             elif arguments[1] == "remove":
@@ -112,16 +116,31 @@ class Thread:
             
         elif arguments[0] == "commit":
             return self.updates.commit()
+        
+        elif arguments[0] == "reload":
+            self.__init__()
+            self.load()
+        elif arguments[0] == "undo":
+            return self.undo()
 
 
 
     def load(self):
         for line in file_read("betting_history.txt").split("\n"):
+            line = line.rstrip("\r")
             self.interpret(line.split(" "))
+        self.save()
     
     def save(self):
         file_write("thread.txt", repr(self))
         file_write("updates.txt", repr(self.updates))
+
+    def undo(self):
+        lines = file_read("betting_history.txt").rstrip("\n").split("\n")
+        print "Undo command: '{}'".format(lines[-1])
+        file_write("betting_history.txt", "\n".join(lines[:-1]) + "\n")
+        self.__init__()
+        self.load()
         
 class Instructions:
     FORMAT = file_read("instructions.txt")
@@ -490,18 +509,14 @@ class Payout:
             money = str_money(self.net)
             )
 
-def run():
-    thread = Thread()
-    thread.load()
+thread = Thread()
+thread.load()
 
-    while True:
-        line = raw_input("> ")
-        if line == "exit":
-            return
-        
-        if thread.interpret(line.split(" ")) != None:
-            file_append("betting_history.txt", line + "\n")
-            thread.save()
-
-if __name__ == "__main__":
-    run()
+while True:
+    line = raw_input("> ")
+    if line == "exit":
+        break
+    
+    if thread.interpret(line.split(" ")) != None:
+        file_append("betting_history.txt", line + "\n")
+        thread.save()
