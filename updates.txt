@@ -67,3 +67,83 @@ Threefolder: +$115.36
 Frostfire, Rosie, TheEvoker & Tue27: +$76.92
 Jackrb: +$61.54
 hPerks: -$100.00
+
+hPerks 4-1 MBCollector
+
+Kalle & Tue27: +$223.27
+Robert, Rosie, TheEvoker & TheTurk: +$148.85
+Threefolder: +$83.60
+MBOUltimate: +$44.65
+Frostfire: +$29.77
+HiGuy & Jackrb: -$100.00
+Lamp: -$500.00
+
+Tue27 5-0 CylinderKnot
+
+Frostfire, Lamp & MBOUltimate: +$185.14
+Kalle, Robert, Rosie & hPerks: +$123.43
+Threefolder: +$114.42
+TheEvoker: +$86.40
+HiGuy: -$100.00
+Jackrb: -$150.00
+TheTurk: -$500.00
+
+Robert 5-0 Peacock
+
+Eguy, Frostfire, HiGuy, Jackrb, Kalle, Lamp, MBOUltimate, Regislian, Rosie, TheTurk, Tue27, Xedron & hPerks: +$36.00
+Threefolder: +$31.99
+
+Robert 4-1 Sefaro
+
+Kalle & TheEvoker: +$631.09
+TheTurk: +$420.73
+Threefolder: +$280.48
+Tue27: +$252.43
+Frostfire: +$84.14
+HiGuy: -$100.00
+Jackrb & MBOUltimate: -$200.00
+hPerks: -$300.00
+Lamp & Rosie: -$500.00
+
+Jackrb 4-1 TheEvoker
+
+Frostfire: +$174.48
+MBOUltimate: +$139.59
+Kalle, Lamp, Robert, Rosie, Tue27 & hPerks: +$116.32
+Threefolder: +$87.97
+HiGuy: -$100.00
+TheTurk: -$500.00
+
+MBOUltimate 4-1 noby
+
+TheTurk: +$233.81
+Kalle, Robert, Rosie, TheEvoker & Tue27: +$155.87
+Frostfire: +$155.66
+Threefolder: +$131.15
+HiGuy, Jackrb & hPerks: -$100.00
+Lamp: -$500.00
+
+Invictaa 5-0 Lichable
+
+Lamp, Rosie & Tue27: +$153.21
+Frostfire, Kalle, TheTurk & hPerks: +$102.14
+MBOUltimate & TheEvoker: +$81.71
+HiGuy, Jackrb & Robert: -$100.00
+Threefolder: -$231.64
+
+HiGuy 4-1 Storminorman
+
+Frostfire, Kalle, Lamp, MBOUltimate, Robert, Rosie, TheEvoker, TheTurk, Tue27 & hPerks: +$45.55
+Threefolder: +$44.41
+
+Lee 5-0 Weather
+
+TheTurk: +$500.00
+
+Rosie 5-0 Weather
+
+Frostfire, Kalle, MBOUltimate, TheEvoker & Tue27: +$80.77
+Threefolder: +$80.76
+Lamp, Robert, TheTurk & hPerks: +$53.84
+HiGuy & Jackrb: -$100.00
+
