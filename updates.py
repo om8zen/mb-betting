@@ -1,4 +1,4 @@
-from misc import str_money
+from utils.strings import str_money, str_list
 
 class Updates:
     FORMAT = "{updates}"
@@ -20,7 +20,7 @@ class Updates:
         return self.next_update_index
 
     def interpret(self, arguments):
-        print self
+        print(self)
 
 class Update:
     FORMAT = """{winner} {score} {loser}

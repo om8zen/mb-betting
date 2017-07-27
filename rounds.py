@@ -27,9 +27,9 @@ class Rounds:
 
     def interpret(self, arguments):
         if len(arguments) == 0:
-            print self
+            print(self)
         elif arguments[0] == "get":
-            print self.get(" ".join(arguments[1:]))
+            print(self.get(" ".join(arguments[1:])))
 
 class Round:
     FORMAT = """[b][size=5]{display_name}[/size][/b]

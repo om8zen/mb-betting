@@ -1,6 +1,9 @@
 from bet import Bet
+from odds import Odds
 from players import Player
 from updates import Update
+
+from utils.strings import str_money
 
 class Group:
     FORMAT = "[tr] [td][color=#{color}]{player1} vs. {player2}[/color][/td] [td][color=#{color}]{pool}[/color][/td] [td][color=#{color}]{odds1}, {odds2}[/color][/td] [td][color=#{color}]{winner} {score}[/color][/td] [/tr]"

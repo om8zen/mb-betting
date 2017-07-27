@@ -4,7 +4,7 @@ from gamblers import Gamblers
 from rounds import Rounds
 from updates import Updates
 
-from misc import file_read, file_write, file_append
+from utils.files import *
 
 class Thread:
     FORMAT = """{instructions}
@@ -55,7 +55,7 @@ class Thread:
 
     def interpret(self, arguments):
         if arguments[0] == "thread":
-            print self
+            print(self)
 
         elif arguments[0] == "instructions":
             return self.instructions.interpret(arguments[1:])
@@ -70,13 +70,13 @@ class Thread:
 
         elif arguments[0] == "gambler":
             if len(arguments) == 1:
-                print self.gambler.name
+                print(self.gambler.name)
             elif arguments[1] in ["add", "set"]:
                 self.gambler = self.gamblers.get(arguments[2])
                 return self.gambler
         elif arguments[0] == "round":
             if len(arguments) == 1:
-                print self.round.name
+                print(self.round.name)
             elif arguments[1] in ["add", "set"]:
                 self.round = self.rounds.get(arguments[2], " ".join(arguments[3:]))
                 return self.round
@@ -114,7 +114,7 @@ class Thread:
 
     def undo(self):
         lines = file_read("betting_history.txt").rstrip("\n").split("\n")
-        print "Undo command: '{}'".format(lines[-1])
+        print("Undo command: '{}'".format(lines[-1]))
         file_write("betting_history.txt", "\n".join(lines[:-1]) + "\n")
         self.__init__()
         self.load()

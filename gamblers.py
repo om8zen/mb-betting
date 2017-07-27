@@ -1,4 +1,4 @@
-from misc import str_money
+from utils.strings import str_money
 
 class Gamblers:
     FORMAT = """[b][size=5]Standings[/size][/b]
@@ -28,9 +28,9 @@ class Gamblers:
 
     def interpret(self, arguments):
         if len(arguments) == 0:
-            print self
+            print(self)
         elif arguments[0] == "get":
-            print self.get(" ".join(arguments[1:]))
+            print(self.get(" ".join(arguments[1:])))
 
 class Gambler:
     FORMAT = "[tr] [td]{player}[/td] [td]{money}[/td] [td]{correct}/{total}[/td] [td]{percentage}%[/td] [/tr]"

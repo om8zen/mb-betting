@@ -1,4 +1,4 @@
-from misc import file_read
+from utils.files import file_read
 
 class Instructions:
     FORMAT = file_read("instructions.txt")
@@ -11,4 +11,4 @@ class Instructions:
 
     def interpret(self, arguments):
         if len(arguments) == 0:
-            print self
+            print(self)
