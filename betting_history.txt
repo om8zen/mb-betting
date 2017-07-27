@@ -986,3 +986,26 @@ bet 100 Peacock 3 TheTurk
 bet 100 Sefaro 3 Eguy
 round set RR4
 win Rosie 5 Weather
+gambler set TheTurk
+round set RR5
+bet 500 Xedron 5 Tue27
+bet 200 noby 3 Lichable
+bet 100 CylinderKnot 3 MBOUltimate
+bet 200 Macstr0yer 3 Invictaa
+bet 100 Ralph 3 Storminorman
+bet 500 Kalle 5 TheEvoker
+bet 200 MBCollector 3 HiGuy
+bet 300 Rosie 3 Robert
+bet 100 Jackrb 3 hPerks
+bet 100 Sefaro 3 Eguy
+win MBOUltimate 5 CylinderKnot
+win HiGuy 4 MBCollector
+round set RR4
+win Kalle 5 Ralph
+round set RR5
+win hPerks 5 Jackrb
+round set RR4
+win Xedron 4 Macstr0yer
+round set RR5
+win Rosie 4 Robert
+win Invictaa 4 Macstr0yer
