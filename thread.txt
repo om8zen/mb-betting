@@ -54,7 +54,7 @@ That's it! Let's get started with our first rounds!
 [tr] [td][color=#AAAAAA]Lee vs. TheTurk[/color][/td] [td][color=#AAAAAA]$3999.90[/color][/td] [td][color=#AAAAAA]Lee 1:6, TheTurk 32:1[/color][/td] [td][color=#AAAAAA]Lee 5-0[/color][/td] [/tr]
 [tr] [td][color=#666666]Eguy vs. Peacock[/color][/td] [td][color=#666666]$6598.94[/color][/td] [td][color=#666666]Eguy 1:10, Peacock 50:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
 [tr] [td][color=#AAAAAA]Robert vs. Sefaro[/color][/td] [td][color=#AAAAAA]$4533.33[/color][/td] [td][color=#AAAAAA]Robert 1:1, Sefaro 3:2[/color][/td] [td][color=#AAAAAA]Robert 4-1[/color][/td] [/tr]
-[tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
+[tr] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [/tr]
 [/table]
 
 
@@ -75,7 +75,7 @@ That's it! Let's get started with our first rounds!
 [tr] [td][color=#666666]TheTurk vs. Peacock[/color][/td] [td][color=#666666]$5538.53[/color][/td] [td][color=#666666]TheTurk 1:8, Peacock 50:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
 [tr] [td][color=#666666]Eguy vs. Sefaro[/color][/td] [td][color=#666666]$5023.97[/color][/td] [td][color=#666666]Eguy 3:7, Sefaro 4:1[/color][/td] [td][color=#666666] [/color][/td] [/tr]
 [tr] [td][color=#AAAAAA]Lee vs. Weather[/color][/td] [td][color=#AAAAAA]$1000.00[/color][/td] [td][color=#AAAAAA]Lee 1:1, Weather 1:0[/color][/td] [td][color=#AAAAAA]Lee 5-0[/color][/td] [/tr]
-[tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
+[tr] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [/tr]
 [/table]
 
 [spoiler]
@@ -96,7 +96,7 @@ That's it! Let's get started with our first rounds!
 [tr] [td][color=#AAAAAA]Eguy vs. TheTurk[/color][/td] [td][color=#AAAAAA]$5731.45[/color][/td] [td][color=#AAAAAA]Eguy 1:5, TheTurk 10:1[/color][/td] [td][color=#AAAAAA]Eguy 5-0[/color][/td] [/tr]
 [tr] [td][color=#AAAAAA]Lee vs. Sefaro[/color][/td] [td][color=#AAAAAA]$5228.34[/color][/td] [td][color=#AAAAAA]Lee 1:2, Sefaro 3:1[/color][/td] [td][color=#AAAAAA]Lee 3-2[/color][/td] [/tr]
 [tr] [td][color=#AAAAAA]Robert vs. Weather[/color][/td] [td][color=#AAAAAA]$6099.95[/color][/td] [td][color=#AAAAAA]Robert 1:8, Weather 32:1[/color][/td] [td][color=#AAAAAA]Robert 4-1[/color][/td] [/tr]
-[tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
+[tr] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [/tr]
 [/table]
 
 
@@ -117,7 +117,7 @@ That's it! Let's get started with our first rounds!
 [tr] [td][color=#AAAAAA]Lee vs. Robert[/color][/td] [td][color=#AAAAAA]$5143.89[/color][/td] [td][color=#AAAAAA]Robert 2:5, Lee 4:1[/color][/td] [td][color=#AAAAAA]Lee 4-1[/color][/td] [/tr]
 [tr] [td][color=#AAAAAA]Sefaro vs. Peacock[/color][/td] [td][color=#AAAAAA]$7874.45[/color][/td] [td][color=#AAAAAA]Sefaro 1:15, Peacock 1:0[/color][/td] [td][color=#AAAAAA]Sefaro 5-0[/color][/td] [/tr]
 [tr] [td][color=#AAAAAA]Eguy vs. Weather[/color][/td] [td][color=#AAAAAA]$7266.82[/color][/td] [td][color=#AAAAAA]Eguy 1:13, Weather 1:0[/color][/td] [td][color=#AAAAAA]Eguy 5-0[/color][/td] [/tr]
-[tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
+[tr] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [/tr]
 [/table]
 
 
@@ -138,7 +138,7 @@ That's it! Let's get started with our first rounds!
 [tr] [td][color=#AAAAAA]Eguy vs. Lee[/color][/td] [td][color=#AAAAAA]$6287.64[/color][/td] [td][color=#AAAAAA]Eguy 1:4, Lee 8:1[/color][/td] [td][color=#AAAAAA]Lee 3-2[/color][/td] [/tr]
 [tr] [td][color=#AAAAAA]Robert vs. Peacock[/color][/td] [td][color=#AAAAAA]$7444.44[/color][/td] [td][color=#AAAAAA]Robert 1:13, Peacock 1:0[/color][/td] [td][color=#AAAAAA]Robert 5-0[/color][/td] [/tr]
 [tr] [td][color=#AAAAAA]Weather vs. TheTurk[/color][/td] [td][color=#AAAAAA]$5152.02[/color][/td] [td][color=#AAAAAA]TheTurk 6:5, Weather 5:4[/color][/td] [td][color=#AAAAAA]Weather 3-2[/color][/td] [/tr]
-[tr] [td]––––––––––––––––––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––––––––––––––[/td] [td]––––––––––––––––[/td] [/tr]
+[tr] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [/tr]
 [/table]
 [/spoiler]
 
@@ -164,5 +164,5 @@ That's it! Let's get started with our first rounds!
 [tr] [td]HiGuy[/td] [td]-$1018.86[/td] [td]17/41[/td] [td]41%[/td] [/tr]
 [tr] [td]Xedron[/td] [td]-$1026.87[/td] [td]24/31[/td] [td]77%[/td] [/tr]
 [tr] [td]Lamp[/td] [td]-$4403.14[/td] [td]29/44[/td] [td]66%[/td] [/tr]
-[tr] [td]––––––––––––[/td] [td]––––––––––––[/td] [td]––––––––––––––––––––[/td] [td]––––––––[/td]
+[tr] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“[/td] [td]â€“â€“â€“â€“â€“â€“â€“â€“[/td]
 [/table]
