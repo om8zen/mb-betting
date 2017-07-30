@@ -6,6 +6,7 @@ from updates import Updates
 
 from utils.files import *
 
+
 class Thread:
     FORMAT = """{instructions}
 
@@ -27,31 +28,38 @@ class Thread:
 
     def __repr__(self):
         return self.FORMAT.format(
-            instructions = self.instructions,
-            gamblers = self.gamblers,
-            rounds = self.rounds
-            )
-
-
+            instructions=self.instructions,
+            gamblers=self.gamblers,
+            rounds=self.rounds
+        )
 
     def group(self, round_name, player_names):
         return self.rounds.get(round_name).group([self.players.get(player_name) for player_name in player_names])
 
-    def bet(self, round_name, gambler_name, winner_name, loser_names, money, winning_score = -1):
+    def bet(self, round_name, gambler_name, winner_name, loser_names, money, winning_score=-1):
         if isinstance(loser_names, str):
             loser_names = [loser_names]
 
-        return self.rounds.get(round_name).bet(self.gamblers.get(gambler_name), self.players.get(winner_name), [self.players.get(loser_name) for loser_name in loser_names], money, winning_score)
+        return self.rounds.get(round_name).bet(
+            self.gamblers.get(gambler_name),
+            self.players.get(winner_name),
+            [self.players.get(loser_name) for loser_name in loser_names],
+            money,
+            winning_score
+        )
 
     def win(self, round_name, winner_name, loser_names, winning_score):
         if isinstance(loser_names, str):
             loser_names = [loser_names]
 
-        return self.updates.add(self.rounds.get(round_name).win(self.players.get(winner_name), [self.players.get(loser_name) for loser_name in loser_names], winning_score))
+        return self.updates.add(self.rounds.get(round_name).win(
+            self.players.get(winner_name),
+            [self.players.get(loser_name) for loser_name in loser_names],
+            winning_score)
+        )
 
     def finish(self, round_name, player_names):
         return self.group(round_name, player_names).finish()
-
 
     def interpret(self, arguments):
         if arguments[0] == "thread":
@@ -82,14 +90,27 @@ class Thread:
                 return self.round
             elif arguments[1] == "remove":
                 pass
+
         elif arguments[0] == "group":
-            return self.group(round_name = self.round.name, player_names = arguments[1:])
+            return self.group(round_name=self.round.name, player_names=arguments[1:])
         elif arguments[0] == "bet":
-            return self.bet(round_name = self.round.name, gambler_name = self.gambler.name, money = float(arguments[1]) * 100, winner_name = arguments[2], winning_score = int(arguments[3]), loser_names = arguments[4:])
+            return self.bet(
+                round_name=self.round.name,
+                gambler_name=self.gambler.name,
+                money=float(arguments[1]) * 100,
+                winner_name=arguments[2],
+                winning_score=int(arguments[3]),
+                loser_names=arguments[4]
+            )
         elif arguments[0] == "win":
-            return self.win(round_name = self.round.name, winner_name = arguments[1], winning_score = int(arguments[2]), loser_names = arguments[3:])
+            return self.win(
+                round_name=self.round.name,
+                winner_name=arguments[1],
+                winning_score=int(arguments[2]),
+                loser_names=arguments[3:]
+            )
         elif arguments[0] == "finish":
-            return self.finish(round_name = self.round.name, player_names = arguments[1:])
+            return self.finish(round_name=self.round.name, player_names=arguments[1:])
 
         elif arguments[0] == "commit":
             return self.updates.commit()
@@ -99,8 +120,6 @@ class Thread:
             self.load()
         elif arguments[0] == "undo":
             return self.undo()
-
-
 
     def load(self):
         for line in file_read("betting_history.txt").split("\n"):

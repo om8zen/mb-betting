@@ -926,7 +926,7 @@ bet 300 Storminorman 4 Ralph
 bet 500 Kalle 5 TheEvoker
 bet 300 MBCollector 3 HiGuy
 bet 500 Rosie 4 Robert
-bet 500 TheTurk 4 Peacock
+bet 500 TheTurk 5 Peacock
 bet 500 Eguy 4 Sefaro
 gambler set Robert
 bet 500 Xedron 5 Tue27
@@ -1013,3 +1013,249 @@ win Invictaa 4 Macstr0yer
 commit
 win TheTurk 5 Peacock
 win Xedron 5 Tue27
+round add RR6 Round Robin Week 6 (July 29-August 5)
+round set RR6
+group Xedron MBOUltimate
+group Invictaa noby
+group Tue27 Lichable
+group Macstr0yer CylinderKnot
+group hPerks Kalle
+group HiGuy Ralph
+group Jackrb Storminorman
+group MBCollector TheEvoker
+group Rosie Eguy
+group Lee Peacock
+group Robert TheTurk
+group Weather Sefaro
+round add RR7 Round Robin Week 7 (August 5-August 12)
+round set RR7
+group Xedron Invictaa
+group MBOUltimate Tue27
+group Macstr0yer noby
+group CylinderKnot Lichable
+group hPerks HiGuy
+group Kalle Jackrb
+group MBCollector Ralph
+group TheEvoker Storminorman
+group Rosie Lee
+group Eguy Robert
+group Weather Peacock
+group Sefaro TheTurk
+round set RR6
+win Tue27 4 Lichable
+round set RR7
+win MBOUltimate 5 Tue27
+commit
+round set RR6
+gambler set MBOUltimate
+bet 500 Invictaa 5 noby
+bet 450 Macstr0yer 4 CylinderKnot
+bet 500 hPerks 4 Kalle
+bet 500 HiGuy 5 Ralph
+bet 500 Jackrb 5 Storminorman
+bet 450 MBCollector 4 TheEvoker
+bet 300 Rosie 3 Eguy
+bet 500 Lee 5 Peacock
+bet 500 Robert 4 TheTurk
+bet 350 Sefaro 3 Weather
+round set RR7
+bet 400 Xedron 3 Invictaa
+bet 500 Macstr0yer 5 noby
+bet 300 CylinderKnot 3 Lichable
+bet 500 hPerks 4 HiGuy
+bet 300 Kalle 3 Jackrb
+bet 500 MBCollector 5 Ralph
+bet 300 TheEvoker 3 Storminorman
+bet 500 Rosie 5 Lee
+bet 400 Eguy 3 Robert
+bet 500 Weather 5 Peacock
+bet 400 Sefaro 4 TheTurk
+gambler set Frostfire
+round set RR6
+bet 500 Xedron 3 MBOUltimate
+bet 500 Invictaa 5 noby
+bet 500 Macstr0yer 5 CylinderKnot
+bet 500 hPerks 4 Kalle
+bet 500 HiGuy 5 Ralph
+bet 500 Jackrb 4 Storminorman
+bet 500 MBCollector 5 TheEvoker
+bet 100 Eguy 3 Rosie
+bet 500 Lee 5 Peacock
+bet 500 Robert 5 TheTurk
+bet 300 Sefaro 3 Weather
+round set RR7
+bet 500 Xedron 4 Invictaa
+bet 500 Macstr0yer 4 noby
+bet 100 Lichable 3 CylinderKnot
+bet 500 hPerks 5 HiGuy
+bet 100 Jackrb 3 Kalle
+bet 500 MBCollector 5 Ralph
+bet 100 Storminorman 3 TheEvoker
+bet 100 Lee 3 Rosie
+bet 500 Eguy 4 Robert
+bet 500 Weather 5 Peacock
+bet 100 TheTurk 3 Sefaro
+gambler set Tue27
+round set RR6
+bet 300 Xedron 3 MBOUltimate
+bet 500 Invictaa 5 noby
+bet 500 Macstr0yer 5 CylinderKnot
+bet 500 hPerks 3 Kalle
+bet 500 HiGuy 5 Ralph
+bet 500 Jackrb 5 Storminorman
+bet 500 MBCollector 5 TheEvoker
+bet 500 Rosie 4 Eguy
+bet 500 Lee 5 Peacock
+bet 500 Robert 5 TheTurk
+bet 500 Sefaro 4 Weather
+round set RR7
+bet 500 Xedron 4 Invictaa
+bet 500 Macstr0yer 5 noby
+bet 500 Lichable 4 CylinderKnot
+bet 500 hPerks 4 HiGuy
+bet 300 Kalle 3 Jackrb
+bet 500 MBCollector 5 Ralph
+bet 200 TheEvoker 3 Storminorman
+bet 500 Rosie 4 Lee
+bet 300 Eguy 3 Robert
+bet 500 Weather 5 Peacock
+bet 500 Sefaro 4 TheTurk
+gambler set Jackrb
+round set RR6
+bet 300 MBOUltimate 3 Xedron
+bet 500 Invictaa 4 noby
+bet 500 Macstr0yer 3 CylinderKnot
+bet 250 Kalle 3 hPerks
+bet 500 HiGuy 5 Ralph
+bet 500 MBCollector 4 TheEvoker
+bet 100 Eguy 4 Rosie
+bet 500 Lee 5 Peacock
+bet 500 Robert 4 TheTurk
+bet 500 Sefaro 4 Weather
+round set RR7
+bet 100 Invictaa 3 Xedron
+bet 100 noby 3 Macstr0yer
+bet 100 Lichable 3 CylinderKnot
+bet 300 hPerks 4 HiGuy
+bet 500 MBCollector 5 Ralph
+bet 150 TheEvoker 3 Storminorman
+bet 200 Rosie 3 Lee
+bet 150 Robert 3 Eguy
+bet 500 Weather 5 Peacock
+bet 500 Sefaro 4 TheTurk
+gambler set Rosie
+round set RR6
+bet 500 Xedron 3 MBOUltimate
+bet 500 Invictaa 5 noby
+bet 500 Macstr0yer 4 CylinderKnot
+bet 500 Kalle 3 hPerks
+bet 500 HiGuy 5 Ralph
+bet 500 Jackrb 4 Storminorman
+bet 500 MBCollector 5 TheEvoker
+bet 500 Lee 5 Peacock
+bet 500 Robert 4 TheTurk
+bet 500 Sefaro 4 Weather
+round set RR7
+bet 500 Xedron 5 Invictaa
+bet 500 Macstr0yer 4 noby
+bet 500 CylinderKnot 3 Lichable
+bet 500 hPerks 4 HiGuy
+bet 500 Kalle 4 Jackrb
+bet 500 MBCollector 5 Ralph
+bet 500 Storminorman 4 TheEvoker
+bet 500 Eguy 3 Robert
+bet 500 Weather 5 Peacock
+bet 500 Sefaro 4 TheTurk
+gambler set HiGuy
+round set RR6
+bet 100 MBOUltimate 3 Xedron
+bet 100 noby 3 Invictaa
+bet 100 CylinderKnot 3 Macstr0yer
+bet 100 Kalle 3 hPerks
+bet 100 Storminorman 3 Jackrb
+bet 100 TheEvoker 3 MBCollector
+bet 100 Eguy 3 Rosie
+bet 100 Peacock 3 Lee
+bet 100 TheTurk 3 Robert
+bet 100 Weather 3 Sefaro
+round set RR7
+bet 100 Invictaa 3 Xedron
+bet 100 noby 3 Macstr0yer
+bet 100 Lichable 3 CylinderKnot
+bet 100 Jackrb 3 Kalle
+bet 100 Ralph 3 MBCollector
+bet 100 Lee 3 Rosie
+bet 100 Robert 3 Eguy
+bet 100 Peacock 3 Weather
+bet 100 TheTurk 3 Sefaro
+gambler set Robert
+round set RR6
+bet 500 MBOUltimate 3 Xedron
+bet 500 Invictaa 4 noby
+bet 500 Macstr0yer 3 CylinderKnot
+bet 500 hPerks 3 Kalle
+bet 500 HiGuy 5 Ralph
+bet 500 Jackrb 5 Storminorman
+bet 500 MBCollector 4 TheEvoker
+bet 500 Rosie 3 Eguy
+bet 500 Lee 5 Peacock
+bet 500 Sefaro 4 Weather
+round set RR7
+bet 500 Xedron 5 Invictaa
+bet 500 noby 3 Macstr0yer
+bet 500 Lichable 4 CylinderKnot
+bet 500 hPerks 5 HiGuy
+bet 500 Kalle 3 Jackrb
+bet 500 MBCollector 5 Ralph
+bet 500 Storminorman 3 TheEvoker
+bet 500 Rosie 4 Lee
+bet 500 Weather 5 Peacock
+bet 500 Sefaro 4 TheTurk
+gambler set Kalle
+round set RR6
+bet 500 Xedron 4 MBOUltimate
+bet 500 Invictaa 5 noby
+bet 500 Macstr0yer 5 CylinderKnot
+bet 500 HiGuy 5 Ralph
+bet 500 Jackrb 5 Storminorman
+bet 500 MBCollector 5 TheEvoker
+bet 500 Rosie 4 Eguy
+bet 500 Lee 5 Peacock
+bet 500 Robert 5 TheTurk
+bet 500 Sefaro 4 Weather
+round set RR7
+bet 500 Xedron 5 Invictaa
+bet 500 Macstr0yer 4 noby
+bet 500 CylinderKnot 4 Lichable
+bet 500 hPerks 5 HiGuy
+bet 500 MBCollector 5 Ralph
+bet 500 TheEvoker 5 Storminorman
+bet 500 Rosie 5 Lee
+bet 500 Eguy 4 Robert
+bet 500 Weather 5 Peacock
+bet 500 Sefaro 5 TheTurk
+gambler set hPerks
+round set RR6
+bet 250 MBOUltimate 3 Xedron
+bet 100 noby 3 Invictaa
+bet 200 CylinderKnot 3 Macstr0yer
+bet 500 HiGuy 5 Ralph
+bet 500 Jackrb 4 Storminorman
+bet 500 MBCollector 5 TheEvoker
+bet 250 Eguy 3 Rosie
+bet 500 Lee 5 Peacock
+bet 500 Robert 3 TheTurk
+bet 100 Weather 3 Sefaro
+round set RR7
+bet 400 Xedron 3 Invictaa
+bet 300 noby 3 Macstr0yer
+bet 300 Lichable 4 CylinderKnot
+bet 100 Jackrb 3 Kalle
+bet 500 MBCollector 5 Ralph
+bet 200 Storminorman 3 TheEvoker
+bet 100 Lee 3 Rosie
+bet 400 Eguy 5 Robert
+bet 500 Weather 5 Peacock
+bet 500 Sefaro 5 TheTurk
+round set RR6
+bet 500 Sefaro 5 Weather

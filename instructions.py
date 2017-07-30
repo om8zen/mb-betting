@@ -1,5 +1,6 @@
 from utils.files import file_read
 
+
 class Instructions:
     FORMAT = file_read("instructions.txt")
 

@@ -1,5 +1,6 @@
 from utils.strings import str_money
 
+
 class Gamblers:
     FORMAT = """[b][size=5]Standings[/size][/b]
 
@@ -23,14 +24,20 @@ class Gamblers:
         return gambler
 
     def __repr__(self):
-        self.gamblers = sorted(sorted(self.gamblers, key = lambda gambler: gambler.name), key = lambda gambler: -gambler.money)
-        return self.FORMAT.format(gamblers = "\n".join([repr(gambler) for gambler in self.gamblers if gambler.predictions_made > 0]))
+        self.gamblers = sorted(
+            sorted(self.gamblers, key=lambda gambler: gambler.name),
+            key=lambda gambler: -gambler.money
+        )
+        return self.FORMAT.format(
+            gamblers="\n".join([repr(gambler) for gambler in self.gamblers if gambler.predictions_made > 0])
+        )
 
     def interpret(self, arguments):
         if len(arguments) == 0:
             print(self)
         elif arguments[0] == "get":
             print(self.get(" ".join(arguments[1:])))
+
 
 class Gambler:
     FORMAT = "[tr] [td]{player}[/td] [td]{money}[/td] [td]{correct}/{total}[/td] [td]{percentage}%[/td] [/tr]"
@@ -43,9 +50,11 @@ class Gambler:
 
     def __repr__(self):
         return self.FORMAT.format(
-            player = self.name,
-            money = str_money(self.money),
-            correct = self.predictions_correct,
-            total = self.predictions_made,
-            percentage = int(round(self.predictions_correct * 100.0 / self.predictions_made)) if self.predictions_made > 0 else ""
-            )
+            player=self.name,
+            money=str_money(self.money),
+            correct=self.predictions_correct,
+            total=self.predictions_made,
+            percentage=int(
+                round(self.predictions_correct * 100.0 / self.predictions_made)
+            ) if self.predictions_made > 0 else ""
+        )

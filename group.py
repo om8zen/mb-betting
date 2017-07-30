@@ -1,14 +1,15 @@
 from bet import Bet
 from odds import Odds
-from players import Player
 from updates import Update
 
 from utils.strings import str_money
 
-class Group:
-    FORMAT = "[tr] [td][color=#{color}]{player1} vs. {player2}[/color][/td] [td][color=#{color}]{pool}[/color][/td] [td][color=#{color}]{odds1}, {odds2}[/color][/td] [td][color=#{color}]{winner} {score}[/color][/td] [/tr]"
 
-    def __init__(self, round, players, initial_pool = 50000):
+class Group:
+    FORMAT = "[tr] [td][color=#{color}]{player1} vs. {player2}[/color][/td] [td][color=#{color}]{pool}[/color][/td] " \
+             "[td][color=#{color}]{odds1}, {odds2}[/color][/td] [td][color=#{color}]{winner} {score}[/color][/td] [/tr]"
+
+    def __init__(self, round, players, initial_pool=50000):
         self.round, self.players, self.initial_pool = round, players, initial_pool
 
         self.is_finished = False
@@ -21,17 +22,17 @@ class Group:
         if len(self.players) == 2:
             odds = self.odds()
             return self.FORMAT.format(
-                player1 = self.players[0],
-                player2 = self.players[1],
-                pool = str_money(self.pool()),
-                odds1 = odds[0],
-                odds2 = odds[1],
-                winner = self.winner if self.winner != None else "",
-                score = self.score(),
-                color = "AAAAAA" if self.is_finished else "666666"
-                )
+                player1=self.players[0],
+                player2=self.players[1],
+                pool=str_money(self.pool()),
+                odds1=odds[0],
+                odds2=odds[1],
+                winner=self.winner if self.winner is not None else "",
+                score=self.score(),
+                color="AAAAAA" if self.is_finished else "666666"
+            )
         else:
-            pass # TODO
+            pass  # TODO
 
     def bet(self, gambler, winner, money, winning_score):
         for bet in self.bets:
@@ -40,7 +41,7 @@ class Group:
 
         bet = Bet(gambler, winner, money, winning_score)
         self.bets.append(bet)
-        self.bets = sorted(self.bets, key = lambda bet: -bet.money)
+        self.bets = sorted(self.bets, key=lambda bet: -bet.money)
         return bet
 
     def contains(self, players):
@@ -63,10 +64,10 @@ class Group:
             proportion = player_totalbet / pool
             odds.append(Odds(player, proportion))
 
-        return sorted(odds, key = lambda o: -o.proportion)
+        return sorted(odds, key=lambda o: -o.proportion)
 
     def score(self):
-        return "{}-{}".format(self.winning_score, 5 - self.winning_score) if self.winning_score != None else ""
+        return "{}-{}".format(self.winning_score, 5 - self.winning_score) if self.winning_score is not None else ""
 
     def win(self, winner, winning_score):
         self.winner = winner

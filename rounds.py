@@ -1,5 +1,6 @@
 from group import Group
 
+
 class Rounds:
     FORMAT = """{rounds_in_progress}
 
@@ -10,7 +11,7 @@ class Rounds:
     def __init__(self):
         self.rounds = []
 
-    def get(self, name, display_name = None):
+    def get(self, name, display_name=None):
         for round in self.rounds:
             if round.name == name:
                 return round
@@ -21,8 +22,8 @@ class Rounds:
 
     def __repr__(self):
         return self.FORMAT.format(
-            rounds_in_progress = "\n\n\n".join([repr(round) for round in self.rounds if not round.is_finished()]),
-            finished_rounds = "\n\n\n".join([repr(round) for round in self.rounds if round.is_finished()])
+            rounds_in_progress="\n\n\n".join([repr(round) for round in self.rounds if not round.is_finished()]),
+            finished_rounds="\n\n\n".join([repr(round) for round in self.rounds if round.is_finished()])
             )
 
     def interpret(self, arguments):
@@ -30,6 +31,7 @@ class Rounds:
             print(self)
         elif arguments[0] == "get":
             print(self.get(" ".join(arguments[1:])))
+
 
 class Round:
     FORMAT = """[b][size=5]{display_name}[/size][/b]
@@ -48,8 +50,8 @@ class Round:
 
     def __repr__(self):
         return self.FORMAT.format(
-            display_name = self.display_name,
-            groups = "\n".join([repr(group) for group in self.groups])
+            display_name=self.display_name,
+            groups="\n".join([repr(group) for group in self.groups])
         )
 
     def group(self, players):
@@ -61,7 +63,7 @@ class Round:
         self.groups.append(group)
         return group
 
-    def bet(self, gambler, winner, losers, money, winning_score = -1):
+    def bet(self, gambler, winner, losers, money, winning_score=-1):
         return self.group([winner] + losers).bet(gambler, winner, money, winning_score)
 
     def win(self, winner, losers, winning_score):

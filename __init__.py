@@ -9,6 +9,6 @@ while True:
     if line == "exit":
         break
 
-    if thread.interpret(line.split(" ")) != None:
+    if thread.interpret(line.split(" ")) is not None:
         file_append("betting_history.txt", line + "\n")
         thread.save()

@@ -1,5 +1,6 @@
 from utils.strings import str_money, str_list
 
+
 class Updates:
     FORMAT = "{updates}"
 
@@ -9,7 +10,7 @@ class Updates:
         self.next_update_index = 0
 
     def __repr__(self):
-        return self.FORMAT.format(updates = "\n\n".join([repr(update) for update in self.updates[self.next_update_index:]]))
+        return self.FORMAT.format(updates="\n\n".join([repr(update) for update in self.updates[self.next_update_index:]]))
 
     def add(self, update):
         self.updates.append(update)
@@ -21,6 +22,7 @@ class Updates:
 
     def interpret(self, arguments):
         print(self)
+
 
 class Update:
     FORMAT = """{winner} {score} {loser}
@@ -72,11 +74,11 @@ class Update:
 
     def __repr__(self):
         return self.FORMAT.format(
-            winner = self.winner,
-            loser = self.losers()[0],
-            score = self.group.score(),
-            payouts = "\n".join([repr(payout) for payout in self.payouts])
-            )
+            winner=self.winner,
+            loser=self.losers()[0],
+            score=self.group.score(),
+            payouts="\n".join([repr(payout) for payout in self.payouts])
+        )
 
     def losers(self):
         return [player for player in self.group.players if player != self.winner]
@@ -85,13 +87,14 @@ class Update:
         for payout in self.payouts:
             if payout.net == net:
                 payout.bets.append(bet)
-                payout.bets = sorted(payout.bets, key = lambda bet: bet.gambler.name)
+                payout.bets = sorted(payout.bets, key=lambda bet: bet.gambler.name)
                 return payout
 
         payout = Payout([bet], net)
         self.payouts.append(payout)
-        self.payouts = sorted(self.payouts, key = lambda payout: -payout.net)
+        self.payouts = sorted(self.payouts, key=lambda payout: -payout.net)
         return payout
+
 
 class Payout:
     FORMAT = "{gamblers}: {sign}{money}"
@@ -101,7 +104,7 @@ class Payout:
 
     def __repr__(self):
         return self.FORMAT.format(
-            gamblers = str_list([bet.gambler.name for bet in self.bets]),
-            sign = "+" if self.net > 0 else "",
-            money = str_money(self.net)
-            )
+            gamblers=str_list([bet.gambler.name for bet in self.bets]),
+            sign="+" if self.net > 0 else "",
+            money=str_money(self.net)
+        )

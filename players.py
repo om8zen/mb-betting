@@ -14,6 +14,7 @@ class Players:
     def interpret(self, arguments):
         pass
 
+
 class Player:
     FORMAT = "{name}"
 
@@ -21,4 +22,4 @@ class Player:
         self.name = name
 
     def __repr__(self):
-        return self.FORMAT.format(name = self.name)
+        return self.FORMAT.format(name=self.name)
